@@ -8,7 +8,7 @@ from typing import Dict, Iterable, List, Optional, Union
 
 class SurveyQuestion (object):
     def __init__(self):
-        raise NotImplementedError( "SurveyQuestion abstract; it can not be instantiated." )
+        raise NotImplementedError( "SurveyQuestion is abstract; it can not be instantiated." )
 
     def get_question_text(self) -> str:
         return self.question_text
